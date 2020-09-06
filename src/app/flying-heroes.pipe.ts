@@ -13,7 +13,7 @@ export class FlyingHeroesPipe implements PipeTransform {
 /////// Identical except for the pure flag
 @Pipe({
   name: 'flyingHeroesImpure',
-  pure: false
+  pure: false //gleich wie flyingHeroes nur mit diesem Flag
 })
 export class FlyingHeroesImpurePipe extends FlyingHeroesPipe {}
 

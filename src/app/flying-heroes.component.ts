@@ -39,7 +39,7 @@ export class FlyingHeroesComponent {
   styles: ['.flyers, .all {font-style: italic}'],
 })
 export class FlyingHeroesImpureComponent extends FlyingHeroesComponent {
-  title = 'Flying Heroes (impure pipe)';
+  title = 'Flying Heroes (impure pipe)'; //Gleich wie FlyingHeroesComponent nur title wird überschrieben
 }
 
 

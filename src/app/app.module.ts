@@ -14,6 +14,7 @@ import { HeroBirthday2Component } from './hero-birthday2.component';
 import { HeroListComponent } from './hero-list.component';
 import { PowerBoostCalculatorComponent } from './power-boost-calculator.component';
 import { PowerBoosterComponent } from './power-booster.component';
+import { HeroesNamePipe } from './heroes-name.pipe';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { PowerBoosterComponent } from './power-booster.component';
     FlyingHeroesPipe,
     FlyingHeroesImpurePipe,
     FetchJsonPipe,
-    ExponentialStrengthPipe
+    ExponentialStrengthPipe,
+    HeroesNamePipe
   ],
   bootstrap: [AppComponent]
 })

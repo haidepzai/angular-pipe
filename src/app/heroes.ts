@@ -1,4 +1,5 @@
 export interface Flyer { canFly: boolean; }
+export class Heldenname { name: string; } //heroes-name.pipe.ts hero.name (name sollte übereinstimmen zu unten)
 export const HEROES =  [
   {name: 'Windstorm', canFly: true},
   {name: 'Bombasto',  canFly: false},
