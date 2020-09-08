@@ -18,7 +18,10 @@ export class FlyingHeroesComponent {
   addHero(name: string) {
     name = name.trim();
     if (!name) { return; }
-    const hero = {name, canFly: this.canFly};
+    const hero = {
+      name, 
+      canFly: this.canFly
+      };
     if (this.mutate) {
     // Pure pipe won't update display because heroes array reference is unchanged
     // Impure pipe will display

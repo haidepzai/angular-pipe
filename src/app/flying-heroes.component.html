@@ -5,7 +5,7 @@ New hero:
           (keyup.enter)="addHero(box.value); box.value=''"
           placeholder="hero name">
   <input id="can-fly" type="checkbox" [(ngModel)]="canFly"> can fly
-</p>
+</p> <!-- On toggle = canFly bei flying-heroes.component is TRUE -->
 <p>
   <input id="mutate" type="checkbox" [(ngModel)]="mutate">Mutate array
   <button (click)="reset()">Reset</button>
